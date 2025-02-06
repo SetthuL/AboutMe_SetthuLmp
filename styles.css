@@ -95,3 +95,19 @@
         display: none;
         font-size: 18px;
       }
+
+      @media screen and (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .content img {
+                width: 90%;
+            }
+            .content p {
+                font-size: 0.9rem;
+            }
+            footer p {
+                font-size: 0.9rem;
+            }
+        }
